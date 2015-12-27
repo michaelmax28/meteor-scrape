@@ -53,7 +53,4 @@ Use the Google Specification to pages with dynamic content and ads
 `_escaped_fragments_=!` to the query string to retrieve static content.
 
     ajaxify = (link) ->
-      link.query['_escaped_fragment_'] = '!'
-      result = link.create()
-      delete link.query['_escaped_fragment_']
       result
